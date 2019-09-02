@@ -1,0 +1,47 @@
+{
+  "name": "teamneusta/pimcore-maintenance",
+  "type": "library",
+  "license": "MIT",
+  "description": "Supporting library for maintaining pimcore version files",
+  "keywords": ["pimcore"],
+  "authors": [
+    {
+      "name": "Iaroslav Sheptykin",
+      "email": "i.sheptykin@neusta.de",
+      "role": "Developer"
+    },
+    {
+      "name": "team neusta GmbH",
+      "email": "opensource@team-neusta.de",
+      "homepage": "https://www.team-neusta.de/",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Neusta\\Pimcore\\Maintenance\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Unit\\Neusta\\Pimcore\\Maintenance\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "symfony/filesystem": "^3.4 || ^4.3",
+    "symfony/finder": "^3.4 || ^4.3"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "friendsofphp/php-cs-fixer": "^2.12",
+    "fzaninotto/faker": "^1.7",
+    "phpunit/phpunit": "^8.2"
+  }
+}
