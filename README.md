@@ -1,7 +1,7 @@
-# Orphaned versions cleaner
+# Pimcore Maintenance Jobs
 
-The aim of this project is to add a maintenance job to pimcore which helps it to
-deal with [orphaned file versions](https://github.com/pimcore/pimcore/issues/4807).
+The aim of this project is to extend the suite of pimcore maintenance jobs. At the moment 
+it only contains one job that helps pimcore dealing with [orphaned file versions](https://github.com/pimcore/pimcore/issues/4807).
 
 ## Usage
 
